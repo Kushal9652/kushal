@@ -16,13 +16,14 @@
         }
 
         .image-container {
-            width: 700px; /* Adjust width based on the number of images calc(25% - 20px) */
-            height: 800px; /* Adjust the height to fit containers properly */
+            width: 400px; /* Adjust width based on the number of images calc(25% - 20px) */
+            height: 548px; /* Adjust the height to fit containers properly */
             margin: 10px;
             overflow: hidden;
             position: relative;
             cursor: pointer;
             transition: transform 0.3s ease-in-out;
+            margin-right: 10px;
         }
 
         .image-container img {
@@ -75,7 +76,7 @@
 <body>
 
     <!-- Image Containers -->
-    <div class="image-container" onclick="enlargeImage('image1.png')">
+    <div class="image-container" onclick="enlargeImage('image1.png')" style="float: left"; >
         <img src="image1.png" alt="securing@achmea">
         <div class="caption">Bounty 1</div>
     </div>
